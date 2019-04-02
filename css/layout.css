@@ -1,0 +1,96 @@
+/* Nav Bar */
+header{
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #005c99;
+}
+header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav, .name{
+  float: left;
+}
+.nav{
+  font-size: 20px;
+}
+
+.name{
+  font-size: 25px;
+}
+
+header li a, .name {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 45px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Body */
+body {
+  width: 90%;
+  max-width: 1020px;
+  -moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+  -webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+  box-shadow: rgba(128, 128, 128, 0.9) 20px 0px 25px,  rgba(128, 128, 128, 0.9) -20px 0px 25px;
+
+  margin: 0px auto auto auto;
+  width: 100%;
+  position: relative;
+  background-color: white;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+
+  min-height: 100%;
+}
+.center{
+  text-align: center;
+
+/* COLUMNS */
+}
+.column {
+  float: left;
+  width: 50%;
+  font-size: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+@media screen and (max-width: 600px) {
+.column {
+  width: 100%;
+}
+
+
+/* IDONTKNOW */
